@@ -24,7 +24,7 @@
 
 <a id="一-概述"></a>
 ## 一. 概述
-使用 $Qt$ 嵌 $C++$ 编写的一个"五子棋"游戏，实现两方对弈。一方执白棋，一方执黑棋，先形成5 子连线者获胜。
+使用 \\(Qt\\) 嵌 \\(C++\\) 编写的一个"五子棋"游戏，实现两方对弈。一方执白棋，一方执黑棋，先形成5 子连线者获胜。
 
 总体模块上分为两部分
 
@@ -61,13 +61,16 @@
 ### 4.1 总体思路
 
 <div align=center>
-![](image/readme0.png)
+<img src="https://github.com/Zyjacya-In-love/Qt_C-plus_Gobang-include-AI/raw/master/image/readme0.png" />
+<!-- ![](image/readme0.png) -->
 </div>
 
 首先选择模式，PVP 或者是 PVC ，程序设定默认选项是 PVC 。然后单击开始按钮即可开始游戏，为了防止用户错误操作等其他不可预料的情况，开始前棋盘将被锁住，不能进行任何操作。然后双方下棋，每落一子，判定是否产生胜者。没有就继续下棋，如果点击悔棋按钮PVP模式就去掉前一个人的落子，如果使PVC模式就取消人及AI的落子。反之如果产生胜者游戏结束，并给出提示信息。游戏结束也可以悔棋。如果单击结束按钮，则更新棋盘为空，恢复初始状态。
 
 <div align=center>
-![](image/readme1.png)![](image/readme2.png)
+<img src="https://github.com/Zyjacya-In-love/Qt_C-plus_Gobang-include-AI/raw/master/image/readme1.png" /><img src="https://github.com/Zyjacya-In-love/Qt_C-plus_Gobang-include-AI/raw/master/image/readme2.png" />
+
+<!-- ![](image/readme1.png)![](image/readme2.png) -->
 </div>
 
 说明：main.cpp 是本项目的主程序文件，通过main程序调用 Game.cpp 中的类。Game.h 是 Game.cpp 的头文件，里面的内容是 Game.cpp 中类及函数的声明，Game.cpp 实现了 Game.h 中的声明。 icon.ico 是本程序的图标， test.rc 实现将图标导入程序。可执行文件存在于 release 目录中。
