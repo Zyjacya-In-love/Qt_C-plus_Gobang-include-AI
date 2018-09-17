@@ -24,7 +24,9 @@
 
 <a id="一-概述"></a>
 ## 一. 概述
+
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 使用 \\(Qt\\) 嵌 \\(C++\\) 编写的一个"五子棋"游戏，实现两方对弈。一方执白棋，一方执黑棋，先形成5 子连线者获胜。
 
 总体模块上分为两部分
