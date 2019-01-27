@@ -1,1 +1,4 @@
-*.Makefile linguist-language=Qt_C++
+*.js linguist-language=qt
+*.css linguist-language=qt
+*.html linguist-language=qt
+Makefile.* linguist-language=qt
