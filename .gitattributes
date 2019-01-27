@@ -1,6 +1,2 @@
-*.js linguist-language=c++
-*.css linguist-language=c++
-*.html linguist-language=c++
-makefile.* linguist-language=c++
-Makefile linguist-language=c++
-Makefile.* linguist-language=c++
+makefile.* linguist-language=qt
+Makefile linguist-language=qt
